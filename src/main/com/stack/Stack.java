@@ -1,3 +1,5 @@
+package com.stack;
+
 public class Stack {
 
     int max = 100;

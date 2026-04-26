@@ -52,4 +52,18 @@ public class Stack {
         return top+1;
     }
 
+    public void display()
+    {
+         if(top == -1)
+            System.out.println("Stack is empty");
+        else{
+            for(int i=0; i<=top; i++)
+                {
+                    System.out.print(stack[i] + " ");
+                }
+            System.out.println();
+        }
+    }
+         
+
 }

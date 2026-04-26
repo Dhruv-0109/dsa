@@ -3,6 +3,8 @@ package com;
 import com.stack.Stack;
 import com.queue.Queue;
 
+//javac com/stack/Stack.java com/queue/Queue.java com/Main.java
+//java com.Main 
 public class Main {
 
     public static void main(String[] args) {

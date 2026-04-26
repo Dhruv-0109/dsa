@@ -2,6 +2,7 @@ public class ValidParenthesis {
     public boolean isValid(String s) {
 
         if(s.isEmpty()) return true;
+        if(s.length() % 2 !=0) return false; //the opening brackets must be equal to closing brackets so the length of the string must be even
 
         int len = s.length();
         Stack <Character> stack = new Stack<>();
